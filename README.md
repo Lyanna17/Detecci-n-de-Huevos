@@ -1,1 +1,1 @@
-# Detecci-n-de-Huevos
+# Detección-de-Huevos
