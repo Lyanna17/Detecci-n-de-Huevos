@@ -25,15 +25,16 @@ Sistema end-to-end de Visión por Computadora para la detección y clasificació
 
 ```bash
 Detecci-n-de-Huevos/
-├── backend/
-│   ├── app.py              # API REST en Flask para inferencias de YOLO
-│   └── best.pt             # Pesos entrenados del modelo YOLO11
-├── app/
+
+├── App/
 │   ├── App.js              # Componente principal de React Native
 │   ├── app.json            # Configuración de Expo
 │   ├── index.js            # Punto de entrada de la aplicación móvil
 │   ├── package.json        # Dependencias de Node.js / React Native
 │   └── package-lock.json   # Árbol de dependencias bloqueado
+├── Backend/
+│   ├── app.py              # API REST en Flask para inferencias de YOLO
+│   └── best.pt             # Pesos entrenados del modelo YOLO11
 ├── .gitignore
 ├── AGENTS.md
 ├── CLAUDE.md
